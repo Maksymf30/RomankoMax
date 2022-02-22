@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма для сбора данных</title>
+</head>
+<body>
+    <h1>Регистрация на сайте автолюбителей</h1>
+    <form action="">
+        <fieldset>
+            <legend>Регистрация</legend>
+            <label for="fname">Имя:</label><br>
+            <input type="text" name="fname"><br>
+            <label for="lname">Фамилия:</label><br>
+            <input type="text" name="lname"><br>
+            <label for="cbrand">Марка вашего авто:</label><br>
+            <select name="cbrand" id="cbrand">
+                <option value="Toyota">Toyota</option>
+                <option value="Mercedes">Mercedes</option>
+                <option value="BMW">BMW</option>
+                <option value="Honda">Honda</option>
+                <option value="Volkswagen">Volkswagen</option>
+                <option value="Ford">Ford</option>
+                <option value="Hyundai">Hyundai</option>
+                <option value="Audi">Audi</option>
+                <option value="Porsche">Porsche</option>
+                <option value="Nissan">Nissan</option>
+            </select>
+        <p><b>Какой тип привода у вашего авто?</b></p>
+        <p><input name="wheel" type="radio" value="full"> Полный привод</p>
+        <p><input name="wheel" type="radio" value="rearwheel"> Задний привод</p>
+        <p><input name="wheel" type="radio" value="frontwheel"> Передний привод</p>
+        <h2>Немного о вашем авто:</h2>
+        <textarea name="yourcar" id="yourcar" cols="30" rows="10"></textarea>
+        </fieldset><br>
+        <button>Отправить</button>
+    </form>
+</body>
+</html>

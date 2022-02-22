@@ -1,0 +1,158 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("./fonts/Roboto-Light.ttf");
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Roboto";
+    src: url("./fonts/Roboto-Medium.ttf");
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Roboto";
+    src: url("./fonts/Roboto-Bold.ttf");
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  body {
+    font-family: "Roboto", sans-serif;
+    background: rgb(255, 247, 202);
+  }
+  .main-photo {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+  }
+  .main-photo img {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    object-fit: cover;
+  }
+.txt {
+  width: 1480px;
+  border: 1px solid greenyellow;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+.txt p {
+  padding: 20px;
+  text-align: center;
+  line-height: 24px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.works_blok {
+  position: relative;
+  margin-bottom: 50px;
+}
+.works {
+display: inline-block;
+margin-left: 200px;
+}
+.works img {
+  width: 400px;
+  height: 300px;
+  object-fit: contain;
+}
+.works h2 {
+  text-align: center;
+  font-weight: 700;
+}
+.certifikate {
+  display: inline-block;
+  margin-left: 80px;
+}
+.certifikate img {
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
+}
+.certifikate h2 {
+  text-align: center;
+  font-weight: 700;
+}
+.left {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  background-color: orange;
+  border-radius: 100%;
+  top: 175px;
+  left: 165px;
+}
+.arrowl {
+  position: relative;
+}
+.arrowl::after {
+  content: '';
+  position: absolute;
+  border: 18px solid transparent;
+  border-right: 18px solid white;
+  top: 15px;
+  left: 0px;
+}
+.right {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  background-color: orange;
+  border-radius: 100%;
+  top: 175px;
+  right: 165px;
+}
+.arrowr {
+  position: relative;
+}
+.arrowr::after {
+  content: '';
+  position: absolute;
+  border: 18px solid transparent;
+  border-left: 18px solid white;
+  top: 15px;
+  right: 0px;
+}
+.nav {
+  width: 1480px;
+  margin: 0 auto;
+}
+.navik {
+  display: inline-block;
+  width: 600px;
+}
+.navik h2 {
+  text-align: center;
+  font-weight: 700;
+  text-decoration: underline;
+}
+.navik p {
+  display: inline-block;
+  width: 250px;
+  height: 50px;
+  background-color: gray;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 100px;
+  color: white;
+  margin: 15px;
+  font-weight: 300;
+}
+.txtdown {
+  display: inline-block;
+  width: 600px;
+  vertical-align: top;
+  border: 1px solid greenyellow;
+  padding: 20px;
+  text-align: center;
+  margin-left: 234px;
+  margin-top: 50px;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 500;
+  text-shadow: 1px 1px 2px gray;
+}
